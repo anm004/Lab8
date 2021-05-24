@@ -11,6 +11,7 @@
   Yes, because this is a small feature that can be tested relatively easily without involving any other aspects of the app.
 
 4. What do you expect to happen if we run our puppeteer tests with the field “headless” set to true?
+    The tests will run in the terminal/background but we won't really be able to see what is going on.
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
-
+replace "page.goto('http://127.0.0.1:5500');" with "page.click(header.img);"
