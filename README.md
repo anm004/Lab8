@@ -14,4 +14,4 @@
     The tests will run in the terminal/background but we won't really be able to see what is going on.
 
 5. What would your beforeAll callback look like if you wanted to start from the settings page before every test case?
-replace "page.goto('http://127.0.0.1:5500');" with "page.click(header.img);"
+replace "page.goto('http://127.0.0.1:5500');" with "page.click('header >img');"
